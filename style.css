@@ -45,39 +45,13 @@ body {
     height: auto;
     display: flex;
     justify-content: center;
+    align-items: center;
     border-bottom: 1px solid #37374e;
 }
 
-.info__boton {
-    padding: 18px 12px;
-    border: none;
-    background: none;
-    color: var(--text-secondary);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.2rem;
-}
-
-.info--overview {
-    font-weight: 700;
-    color: var(--text-primary);
-    border-bottom: 2px solid #c558c5;
-}
-
-.imagen-planeta {
-    display: flex;
-    justify-content: center;
-    margin-top: 60px;
-}
-
-.imagen-planeta__mercurio {
-    width: 150px;
-}
-
 .title {
-    margin-top: 60px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     font-family: 'Antonio', sans-serif;
     color: var(--text-primary);
     font-size: 3rem;
@@ -86,6 +60,16 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.5px;
     text-align: center;
+}
+
+.imagen-planeta {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.imagen-planeta__mercurio {
+    width: 150px;
 }
 
 .description {
@@ -160,12 +144,13 @@ body {
 }
 
 .footer {
-    height: 50px;
+    height: auto;
     width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #37374e;
     font-size: 1rem;
+    padding: 10px 0;
     color: var(--text-secondary);
 }
 
