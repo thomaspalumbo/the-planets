@@ -24,5 +24,24 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid hsl(240,17%,26%);
+    border-bottom: 1px solid #37374e;
+}
+
+.info {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #37374e;
+}
+
+.info__boton {
+    padding: 18px 12px;
+    border: none;
+    background: none;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
 }
