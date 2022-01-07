@@ -172,3 +172,8 @@ body {
 .footer__autores {
     margin: auto 10px;
 }
+
+.footer__autores .github,
+.footer__autores .linkedin {
+    color: var(--text-secondary);
+}
