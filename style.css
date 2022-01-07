@@ -160,7 +160,8 @@ body {
 }
 
 .footer {
-    height: 40px;
+    height: 50px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #37374e;
@@ -168,12 +169,24 @@ body {
     color: var(--text-secondary);
 }
 
-.footer__copyright,
-.footer__autores {
-    margin: auto 10px;
+.footer .footer__copyright {
+    margin: auto 20px;
 }
 
-.footer__autores .github,
-.footer__autores .linkedin {
+.footer .footer__autores {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.footer__autores p {
+    margin-right: 8px;
+}
+
+.footer .github,
+.footer .linkedin {
     color: var(--text-secondary);
+    height: 18px;
+    width: 18px;
+
 }
