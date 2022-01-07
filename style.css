@@ -25,4 +25,5 @@ body {
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid hsl(240,17%,26%);
+    color: var(--text-primary);
 }
