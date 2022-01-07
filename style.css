@@ -1,5 +1,13 @@
+:root {
+    --primary-color: #060525;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: var(--primary-color);
 }
