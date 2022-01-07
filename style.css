@@ -11,3 +11,12 @@
 body {
     background-color: var(--primary-color);
 }
+
+.header {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid hsl(240,17%,26%);
+}
