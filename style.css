@@ -24,7 +24,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 1px solid hsl(240,17%,26%);
+    color: var(--text-primary);
     border-bottom: 1px solid #37374e;
+}
+
+.header h1 {
+    letter-spacing: 3px;
 }
 
 .card-planeta {
