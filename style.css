@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #060525;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
