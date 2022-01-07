@@ -63,7 +63,7 @@ body {
 .info--overview {
     font-weight: 700;
     color: var(--text-primary);
-    border-bottom: 2px solid rgb(197, 88, 197);
+    border-bottom: 2px solid #c558c5;
 }
 
 .imagen-planeta {
@@ -82,9 +82,9 @@ body {
     color: var(--text-primary);
     font-size: 3rem;
     line-height: 100%;
-    font-weight: 500s;
+    font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: .2rem;
+    letter-spacing: 0.5px;
     text-align: center;
 }
 
@@ -119,3 +119,18 @@ body {
 .anchor a:visited {
     color: var(--text-primary);
 }
+
+.footer {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #37374e;
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+.footer__copyright,
+.footer__autores {
+    margin: auto 10px;
+}
+
