@@ -27,6 +27,14 @@ body {
     border-bottom: 1px solid #37374e;
 }
 
+.card-planeta {
+    height: auto;
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #37374e;
+}
+
 .info {
     height: auto;
     display: flex;
@@ -44,4 +52,26 @@ body {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.2rem;
+}
+
+.imagen-planeta {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.imagen-planeta__mercurio {
+    width: 150px;
+}
+
+.title {
+    margin-top: 60px;
+    font-family: 'Antonio', sans-serif;
+    color: var(--text-primary);
+    font-size: 3rem;
+    line-height: 100%;
+    font-weight: 500s;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-align: center;
 }
