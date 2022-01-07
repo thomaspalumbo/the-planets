@@ -60,6 +60,12 @@ body {
     letter-spacing: 0.2rem;
 }
 
+.info--overview {
+    font-weight: 700;
+    color: var(--text-primary);
+    border-bottom: 2px solid rgb(197, 88, 197);
+}
+
 .imagen-planeta {
     display: flex;
     justify-content: center;
