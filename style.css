@@ -29,6 +29,10 @@ body {
     border-bottom: 1px solid #37374e;
 }
 
+.header h1 {
+    letter-spacing: 3px;
+}
+
 .info {
     height: auto;
     display: flex;
