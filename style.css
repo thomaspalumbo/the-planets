@@ -92,8 +92,9 @@ body {
 .anchor {
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     font-size: 1.1rem;
+    opacity: .8;
     color: var(--text-secondary);
 }
 
@@ -104,12 +105,52 @@ body {
 
 .anchor a {
     font-weight: bold;
+    outline: none;
 }
 
 .anchor a:link {
-    color: blue;
+    color: var(--text-secondary);
+    
 }
 
 .anchor a:visited {
+    color: yellowgreen;
+}
+
+.anchor .anchor__a:hover {
     color: var(--text-primary);
 }
+
+.grid-container {
+    width: 90%;
+    height: auto;
+    display: grid;
+    gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    grid-template-columns: 1fr;
+    color: var(--text-secondary);
+}
+
+.grid-container .grid-item {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #37374e;
+    text-transform: uppercase;
+}
+
+.grid-item p {
+    margin-left: 12px;
+}
+
+.grid-item span {
+    margin-right: 12px;
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    letter-spacing: -1px;
+}
+
+
