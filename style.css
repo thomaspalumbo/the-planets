@@ -81,3 +81,35 @@ body {
     letter-spacing: .2rem;
     text-align: center;
 }
+
+.description {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 16px;
+    color: var(--text-secondary);
+}
+
+.anchor {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+}
+
+.anchor span {
+    margin-right: 8px; 
+    font-weight: lighter;
+}
+
+.anchor a {
+    font-weight: bold;
+}
+
+.anchor a:link {
+    color: blue;
+}
+
+.anchor a:visited {
+    color: var(--text-primary);
+}
