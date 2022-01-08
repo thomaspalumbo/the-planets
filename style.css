@@ -65,14 +65,43 @@ body {
 .imagen-planeta {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .imagen-planeta__mercurio {
-    width: 150px;
+    width: 100px;
+}
+
+.imagen-planeta__venus {
+    width: 130px;
+}
+
+.imagen-planeta__tierra {
+    width: 140px;
+}
+
+.imagen-planeta__marte {
+    width: 100px;
+}
+
+.imagen-planeta__jupiter {
+    width: 200px;
+}
+
+.imagen-planeta__saturno {
+    width: 190px;
+}
+
+.imagen-planeta__urano {
+    width: 170px;
+}
+
+.imagen-planeta__neptuno {
+    width: 170px;
 }
 
 .description {
+    margin-top: 20px;
     font-size: 1.2rem;
     text-align: center;
     padding: 16px;
