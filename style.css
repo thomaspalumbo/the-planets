@@ -42,8 +42,8 @@ body {
 }
 
 .info {
-    height: auto;
     display: flex;
+    padding-bottom: 4px;
     justify-content: center;
     align-items: center;
     border-bottom: 1px solid #37374e;
@@ -59,7 +59,6 @@ body {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    text-align: center;
 }
 
 .imagen-planeta {
@@ -111,7 +110,7 @@ body {
 .anchor {
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     font-size: 1.1rem;
     opacity: .8;
     color: var(--text-secondary);
@@ -144,9 +143,9 @@ body {
     width: 90%;
     height: auto;
     display: grid;
-    gap: 10px;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+    gap: 10px;
     grid-template-columns: 1fr;
     color: var(--text-secondary);
 }
@@ -155,6 +154,7 @@ body {
     display: flex;
     height: 40px;
     width: 100%;
+    border-radius: 5px;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #37374e;
