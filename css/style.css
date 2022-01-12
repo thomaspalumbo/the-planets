@@ -107,11 +107,12 @@ body::after {
 
 .imagen-planeta__saturno {
     width: 140px;
+    filter: drop-shadow(0px 5px 10px #b87d43);
 }
 
 .imagen-planeta__urano {
     width: 140px;
-    filter: drop-shadow(0px 5px 10px #5ddec5);
+    filter: drop-shadow(0px 5px 10px #27817b);
 }
 
 .imagen-planeta__neptuno {
