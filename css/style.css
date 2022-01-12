@@ -66,6 +66,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .imagen-planeta__mercurio {
@@ -85,19 +86,19 @@ body {
 }
 
 .imagen-planeta__jupiter {
-    width: 200px;
+    width: 150px;
 }
 
 .imagen-planeta__saturno {
-    width: 190px;
+    width: 140px;
 }
 
 .imagen-planeta__urano {
-    width: 170px;
+    width: 140px;
 }
 
 .imagen-planeta__neptuno {
-    width: 170px;
+    width: 140px;
 }
 
 .description {
