@@ -1,0 +1,205 @@
+:root {
+    --primary-color: #060525;
+    --text-primary: #ffffff;
+    --text-secondary: #bbb8c2;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto Mono', monospace;
+}
+body {
+    background-image: radial-gradient(circle, #051937, #171228, #190a1a, #12040d, #000000);
+}
+
+.header {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid hsl(240,17%,26%);
+    color: var(--text-primary);
+    border-bottom: 1px solid #37374e;
+}
+
+.header h1 {
+    letter-spacing: 3px;
+}
+
+.card-planeta {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 200px 1fr 40px 1fr;
+    height: auto;
+    max-height: 700px;
+    width: 90%;
+    max-width: 500px;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 1px solid #37374e;
+}
+
+.title {
+    padding: 7px 0 10px 0;
+    border-bottom: 1px solid #37374e;
+}
+
+.title h1 {
+    text-align: center;
+    font-family: 'Antonio', sans-serif;
+    color: var(--text-primary);
+    font-size: 3rem;
+    line-height: 100%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.imagen-planeta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-planeta__mercurio {
+    width: 100px;
+}
+
+.imagen-planeta__venus {
+    width: 130px;
+}
+
+.imagen-planeta__tierra {
+    width: 140px;
+}
+
+.imagen-planeta__marte {
+    width: 100px;
+}
+
+.imagen-planeta__jupiter {
+    width: 200px;
+}
+
+.imagen-planeta__saturno {
+    width: 190px;
+}
+
+.imagen-planeta__urano {
+    width: 170px;
+}
+
+.imagen-planeta__neptuno {
+    width: 170px;
+}
+
+.description {
+    font-size: 1.2rem;
+    /* overflow: scroll; */
+    text-align: center;
+    padding: 16px;
+    color: var(--text-secondary);
+}
+
+.anchor {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    opacity: .8;
+    color: var(--text-secondary);
+}
+
+.anchor span {
+    margin-right: 8px; 
+    font-weight: lighter;
+}
+
+.anchor a {
+    font-weight: bold;
+    outline: none;
+}
+
+.anchor a:link {
+    color: var(--text-secondary);
+    
+}
+
+.anchor a:visited {
+    color: yellowgreen;
+}
+
+.anchor .anchor__a:hover {
+    color: var(--text-primary);
+}
+
+.grid-container {
+    display: grid;
+    margin: 0 auto 12px;
+    width: 90%;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 40px);
+    align-content: center;
+    gap: 10px;
+    color: var(--text-secondary);
+}
+
+.grid-container .grid-item {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #37374e;
+    text-transform: uppercase;
+}
+
+.grid-item p {
+    margin-left: 12px;
+}
+
+.grid-item span {
+    margin-right: 12px;
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    letter-spacing: -1px;
+}
+
+.footer {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #37374e;
+    font-size: 1rem;
+    padding: 10px 0;
+    color: var(--text-secondary);
+}
+
+.footer .footer__copyright {
+    margin: auto 20px;
+}
+
+.footer .footer__autores {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.footer__autores p {
+    margin-right: 8px;
+}
+
+.footer .github,
+.footer .linkedin {
+    color: var(--text-secondary);
+    height: 18px;
+    width: 18px;
+
+}
