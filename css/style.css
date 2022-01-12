@@ -38,7 +38,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto 200px 1fr 40px 1fr;
     height: auto;
-    max-height: 700px;
     width: 90%;
     max-width: 500px;
     margin: 20px auto;
@@ -102,10 +101,10 @@ body {
 }
 
 .description {
-    font-size: 1.2rem;
-    /* overflow: scroll; */
-    text-align: center;
     padding: 16px;
+    margin-right: 3px;
+    font-size: 1.2rem;
+    text-align: center;
     color: var(--text-secondary);
 }
 

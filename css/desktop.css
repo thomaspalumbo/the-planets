@@ -5,4 +5,36 @@
 
 .card-planeta {
     width: 320px;
+    max-height: 700px;
+}
+
+.card-planeta:nth-child(4) .description,
+.card-planeta:nth-child(6) .description,
+.card-planeta:nth-child(7) .description,
+.card-planeta:last-child .description {
+    overflow-y: scroll;
+}
+
+.description::-webkit-scrollbar {
+    width: 10px;
+}
+
+.description::-webkit-scrollbar-track {
+    background-color: #1e1e38;
+    border-radius: 100vw;
+    margin: 20px 0;
+}
+
+.description::-webkit-scrollbar-thumb {
+    background-color: #414150;
+    border: 2.5px solid #1e1e38;
+    border-radius: 100vw;
+}
+
+.description::-webkit-scrollbar-thumb:active {
+    background-color: #353546;
+}
+
+.anchor {
+    align-items: center;
 }
