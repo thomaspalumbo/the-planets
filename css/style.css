@@ -82,24 +82,27 @@ body::after {
 
 .imagen-planeta__mercurio {
     width: 100px;
-    filter: drop-shadow(0px 6px 10px #4b5254);
-
+    filter: drop-shadow(0px 5px 10px #3c5158);
 }
 
 .imagen-planeta__venus {
     width: 130px;
+    filter: drop-shadow(0px 5px 10px #6e4d29);
 }
 
 .imagen-planeta__tierra {
     width: 140px;
+    filter: drop-shadow(0px 5px 10px #1d205e);
 }
 
 .imagen-planeta__marte {
     width: 100px;
+    filter: drop-shadow(0px 5px 10px #702b1b);
 }
 
 .imagen-planeta .imagen-planeta__jupiter  {
-    width: 150px;   
+    width: 150px;  
+    filter: drop-shadow(0px 5px 10px #443b2a);
 }
 
 .imagen-planeta__saturno {
