@@ -108,10 +108,12 @@ body::after {
 
 .imagen-planeta__urano {
     width: 140px;
+    filter: drop-shadow(0px 5px 10px #5ddec5);
 }
 
 .imagen-planeta__neptuno {
     width: 140px;
+    filter: drop-shadow(0px 5px 10px #1f366a);
 }
 
 .description {
