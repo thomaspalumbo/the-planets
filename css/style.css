@@ -135,7 +135,7 @@ body {
     color: yellowgreen;
 }
 
-.anchor .anchor__a:hover {
+.anchor a:hover {
     color: var(--text-primary);
 }
 
