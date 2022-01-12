@@ -205,22 +205,32 @@ body::after {
 
 .footer .footer__copyright {
     margin: auto 20px;
+    font-size: 1.2rem;
 }
 
 .footer .footer__autores {
     display: flex;
     align-items: center;
     margin-right: 20px;
+    font-size: 1.3rem;
 }
 
 .footer__autores p {
     margin-right: 8px;
 }
 
+.footer__autores span {
+    display: block;
+    margin-bottom: 5px;
+}
+
 .footer .github,
 .footer .linkedin {
     color: var(--text-secondary);
-    height: 18px;
-    width: 18px;
+    height: 19px;
+    width: 19px;
+}
 
+.footer .icons__thomas {
+    margin-bottom: 2px;
 }
