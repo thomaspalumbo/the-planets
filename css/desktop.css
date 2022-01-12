@@ -8,10 +8,7 @@
     max-height: 700px;
 }
 
-.card-planeta:nth-child(4) .description,
-.card-planeta:nth-child(6) .description,
-.card-planeta:nth-child(7) .description,
-.card-planeta:last-child .description {
+.card-planeta .description {
     overflow-y: scroll;
 }
 
